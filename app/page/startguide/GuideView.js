@@ -83,6 +83,7 @@ export default class GuideView extends Component<{}> {
         Alert.alert('进入主页！')
         AsyncStorage.setItem("user1",'first',(error) => {
                 // Alert.alert('保存成功--');
+            this.props.navigation.navigate('mainInside');
                 if(error == null) {
                     // Alert.alert('保存成功');
                 } else {

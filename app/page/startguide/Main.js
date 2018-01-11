@@ -34,7 +34,7 @@ export default class Main extends Component<{}> {
                 //</Text>
             //</View>
             //<SideMenu menu={sideLeft} isOpen={false} openMenuOffset={1/3} hiddenMenuOffset={2/3} autoclosing={true}>
-            <SideMenu menu={sideLeft} isOpen={false} openMenuOffset={ScreenUtil.width*(3/5)}>
+            <SideMenu menu={sideLeft} isOpen={false} openMenuOffset={ScreenUtil.width*(3/5)} autoClosing={true}>
                <HomeInside />
            </SideMenu>
         );

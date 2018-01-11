@@ -5,6 +5,13 @@ import Dimens from './Dimens'
 
 
  export const styles = StyleSheet.create({
+     bgView: {
+         flex: 1,
+         // justifyContent: 'center',
+         // alignItems: 'center',
+         backgroundColor: Colors.bg_base,
+         padding: 10,
+     },
     bgside: {
         flex: 1,
         // justifyContent: 'center',
@@ -56,4 +63,17 @@ import Dimens from './Dimens'
          height: Dimens.sideleftImgSize,
          marginRight: 10,
      },
+     homeItemView: {
+         flex:1,
+         width: 60,
+         height: 90,
+         backgroundColor:'#ff0',
+         justifyContent: 'center',
+         alignItems: 'center',
+     },
+     homeItemImage: {
+         width: 30,
+         height: 30,
+         marginBottom: 4,
+     }
 });

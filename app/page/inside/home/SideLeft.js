@@ -33,18 +33,17 @@ export default class SideLeft extends Component<{}> {
                 </View>
 
                 <View style={styles.dividerH} />
+
                 <TouchableHighlight onPress={this.onPressMsg} underlayColor={Colors.sideLeftItemPressColor} >
                 <View style={styles.sideLeftItem} >
                     <Image style={styles.sideLeftImg} source={require('../../../image/ic_msg.png')} />
                     <Text >{String.myMessage}</Text>
-
-                        <Text>Button</Text>
                 </View>
                 </TouchableHighlight>
 
                 <View style={styles.dividerH} />
 
-                <TouchableHighlight onPress={this.onPressMsg} underlayColor={Colors.sideLeftItemPressColor} >
+                <TouchableHighlight onPress={this.onPressSetting} underlayColor={Colors.sideLeftItemPressColor} >
                 <View style={styles.sideLeftItem} >
                     <Image style={styles.sideLeftImg} source={require('../../../image/ic_setting.png')} />
                     <Text >{String.setting}</Text>

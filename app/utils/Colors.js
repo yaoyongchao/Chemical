@@ -11,6 +11,7 @@
 
 module.exports = colors;*/
 export default {
+    bg_base: '#ffffff',
     white: '#FFFF00',
     red: '#FF0000',
     transparent: '#00000000',

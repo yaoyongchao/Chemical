@@ -25,6 +25,7 @@ import {
 export default appNav = StackNavigator({
         app: {
             screen: MainInside,
+            // screen: HomeInside,
             // header: null,
 
             navigationOptions: {
